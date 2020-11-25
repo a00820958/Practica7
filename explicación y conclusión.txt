@@ -1,0 +1,6 @@
+Explicación
+El coding para este programa empieza con la inicialización de los puertos B y D. El puerto B es dónde se configuran los pines digitales, con entradas y salidas. El puerto D se usa para prender las luces LED.
+En el programa principal se empieza con un ciclo while donde primero se leen los valores de las columnas y el contador va incrementando por 1. Después, se lee el valor de las columnas cuando se activa la columna que corresponde al lugar 4x4. Después, lee el valor del puerto B, si se presionó una tecla, se cumple una de las condiciones y se asigna el valor de la tecla al puerto.
+
+Conclusión
+La practica no fue muy complicada, calvez un poco tardado. Lo más difícil fue hacer la lógica del programa, el orden del ciclo para que se ejecutara correctamente. En general creo que fue una buena practica, no muy difícil pero suficiente para hacernos pensar.
